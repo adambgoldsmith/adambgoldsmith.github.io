@@ -4,43 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adam Goldsmith</title>
+    <title>ADAM GOLDSMITH</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="icon" type="image/x-icon" href="./media/favicon.ico">
-    <style>
-        body {
-            text-align: center;
-        }
-        nav a {
-            display: inline-block;
-            padding: 10px;
-            text-decoration: none;
-            color: #000;
-        }
-        nav a:hover {
-            background-color: #000;
-            color: #fff;
-        }
-        main {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
-</head>
 <body>
+    <div id="canvas-div">
+        <canvas id="background-canvas">
 
-    <main>
-        <p style="font-size: 40px; margin: 0px;"><b><i>Adam Goldsmith</i></b></p>
-        <p>Software Developer // Vancouver, BC, Canada</p>
-        <img src="./media/image1.png" alt="vancouver" height="300px">
-        <nav>
-            <a href="about.html">about</a> |
-            <a href="projects.html">projects</a> |
-            <a href="#">resume</a> |
-            <a href="contact.html">contact</a>
-        </nav>
-    </main>   
+        </canvas>
+    </div>
+
+    <div id="upper">
+        <div id="navbar-div">
+            <nav>
+                <ul class="flex flex-row nav-links">
+                    <a class="px-3" href="index.html">AG</a>
+                    <a class="px-3 nav-link-right" href="index.html">HOME</a>
+                    <a class="px-3 nav-link-right" href="about.html">ABOUT</a>
+                    <a class="px-3 nav-link-right" href="projects.html">PROJECTS</a>
+                    <a class="px-3 nav-link-right" href="contact.html">CONTACT</a>
+                </ul>
+            </nav>
+        </div>
+    
+        <div id="header-div">
+            <header>
+                <h1 class="header-name">ADAM</h1>
+                <h1 class="header-name">GOLDSMITH</h1>
+            </header>
+        </div>
+    </div>
+
+    <div id="projects-div">
+        <h1>PROJECTS</h1>
+        <div class="row">
+            <div class="col row">
+                <div class="col project-image">
+                    <img src="/media/image1.png" alt="" width="50%">
+                </div>
+                <div class="col project-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, libero amet ipsa, voluptas voluptates sed id veniam nostrum, fuga quo tempora quasi temporibus? Aliquam, unde.</p>
+                    <button class="btn btn-info">Learn More</button>
+                </div>
+            </div>
+            <div class="col row">
+                <div class="col project-image">
+                    <img src="/media/image1.png" alt="" width="50%">
+                </div>
+                <div class="col project-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, libero amet ipsa, voluptas voluptates sed id veniam nostrum, fuga quo tempora quasi temporibus? Aliquam, unde.</p>
+                    <button class="btn btn-info">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col row">
+                <div class="col project-image">
+                    <img src="/media/image1.png" alt="" width="50%">
+                </div>
+                <div class="col project-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, libero amet ipsa, voluptas voluptates sed id veniam nostrum, fuga quo tempora quasi temporibus? Aliquam, unde.</p>
+                    <button class="btn btn-info">Learn More</button>
+                </div>
+            </div>
+            <div class="col row">
+                <div class="col project-image">
+                    <img src="/media/image1.png" alt="" width="50%">
+                </div>
+                <div class="col project-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, libero amet ipsa, voluptas voluptates sed id veniam nostrum, fuga quo tempora quasi temporibus? Aliquam, unde.</p>
+                    <button class="btn btn-info">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col row">
+                <div class="col project-image">
+                    <img src="/media/image1.png" alt="" width="50%">
+                </div>
+                <div class="col project-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, libero amet ipsa, voluptas voluptates sed id veniam nostrum, fuga quo tempora quasi temporibus? Aliquam, unde.</p>
+                    <button class="btn btn-info">Learn More</button>
+                </div>
+            </div>
+            <div class="col row">
+                <div class="col project-image">
+                    <img src="/media/image1.png" alt="" width="50%">
+                </div>
+                <div class="col project-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, libero amet ipsa, voluptas voluptates sed id veniam nostrum, fuga quo tempora quasi temporibus? Aliquam, unde.</p>
+                    <button class="btn btn-info">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="screen-break"></div>
+
+    <div id="tech-div">
+        <h1>TECHNOLOGIES</h1>
+    </div>
+
+    <div class="screen-break"></div>
+
+    <div id="contact-div">
+        <h1>CONTACT</h1>
+    </div>
+
+    <div id="footer-div">
+        <footer>
+            <p>Adam Goldsmith &copy; 2021</p>
+        </footer>
+    </div>
 
 </body>
 </html>

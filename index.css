@@ -2,6 +2,11 @@ body {
     overflow-x: hidden;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+}
+
 #canvas-div {
     position: fixed;
     width: 100%;
@@ -71,7 +76,7 @@ body {
     color: white;
     position: relative;
     padding-top: 5%;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
     padding-left: 15%;
     padding-right: 15%;
 }
@@ -90,9 +95,14 @@ body {
     color: white;
     position: relative;
     padding-top: 5%;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
     padding-left: 15%;
     padding-right: 15%;
+}
+
+.tech-row {
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 #contact-div {

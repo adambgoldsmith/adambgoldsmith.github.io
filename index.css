@@ -12,13 +12,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100%;
     z-index: -10;
+    background-image: url('/media/bg/black/gradient_black_50.png');
 }
-
-/* canvas {
-    background-color: aqua;
-    width: 100%;
-    height: 100%;
-} */
 
 #bg-image {
     width: 100%;
@@ -36,10 +31,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
     color: black;
-}
-
-#last-name {
-    margin-left: 70px;
 }
 
 .nav-links a {
@@ -71,6 +62,10 @@ h1, h2, h3, h4, h5, h6 {
     color:black
 }
 
+#last-name {
+    margin-left: 70px;
+}
+
 #projects-div {
     background-color: black;
     color: white;
@@ -88,6 +83,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .project-card {
     margin: 5%;
+}
+
+.project-tech-used {
+    opacity: 0.75;
+}
+
+.check-it-out {
+    font-size: 20px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    color: white;
 }
 
 #tech-div {
@@ -112,6 +118,18 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 15%;
     padding-left: 15%;
     padding-right: 15%;
+}
+
+.contact-link {
+    font-size: 25px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.contact-link a {
+    padding: 0px 15px 0px 15px;
+    color: black;
 }
 
 .screen-break {
